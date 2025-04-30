@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="360dp"
+    android:viewportWidth="240"
+    android:viewportHeight="360">
+
+    <!-- Phone frame -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M60,40 L180,40 C190,40 200,50 200,60 L200,300 C200,310 190,320 180,320 L60,320 C50,320 40,310 40,300 L40,60 C40,50 50,40 60,40 Z" />
+
+    <!-- Phone screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,70 L190,70 L190,290 L50,290 Z" />
+
+    <!-- Status bar -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M100,50 L140,50 C145,50 145,60 140,60 L100,60 C95,60 95,50 100,50 Z" />
+
+    <!-- Header - Explore -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,70 L190,70 L190,90 L50,90 Z" />
+
+    <path
+        android:fillColor="#9BC466"
+        android:pathData="M55,80 A5,5 0 1,1 65,80 A5,5 0 1,1 55,80 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M115,75 L125,85 L115,85 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M130,75 L130,85 L140,85 L140,75 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M170,80 A3,3 0 1,1 176,80 A3,3 0 1,1 170,80 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M180,80 A3,3 0 1,1 186,80 A3,3 0 1,1 180,80 Z" />
+
+    <!-- Activity Grid -->
+    <!-- Row 1 -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M70,110 L100,110 L100,150 L70,150 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M75,120 L95,120 L95,122 L75,122 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M85,125 A5,5 0 1,1 95,125 A5,5 0 1,1 85,125 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80,140 L90,140 L90,142 L80,142 Z" />
+
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M110,110 L140,110 L140,150 L110,150 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M115,120 L135,120 L135,122 L115,122 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M125,130 C125,125 115,125 118,135 C115,135 115,140 125,140 Z" />
+
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M150,110 L180,110 L180,150 L150,150 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M155,120 L175,120 L175,122 L155,122 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M160,130 L170,130 L170,140 L160,140 Z" />
+
+    <!-- Row 2 -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M70,160 L100,160 L100,200 L70,200 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M75,170 L95,170 L95,172 L75,172 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M80,180 L90,180 L90,185 L80,185 Z" />
+
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M110,160 L140,160 L140,200 L110,200 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M115,170 L135,170 L135,172 L115,172 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M115,175 L135,175 L135,185 L115,185 Z" />
+
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M150,160 L180,160 L180,200 L150,200 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M155,170 L175,170 L175,172 L155,172 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M160,180 L165,180 L165,185 L170,185 Z" />
+
+    <!-- Row 3 -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M70,210 L100,210 L100,250 L70,250 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M75,220 L95,220 L95,222 L75,222 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M75,230 L85,224 L95,230 L85,236 Z" />
+
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M110,210 L140,210 L140,250 L110,250 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M115,220 L135,220 L135,222 L115,222 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M120,230 L130,230 C130,238 120,238 120,230 Z" />
+
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M150,210 L180,210 L180,250 L150,250 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M155,220 L175,220 L175,222 L155,222 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M160,230 L170,230 L165,240 Z" />
+
+    <!-- Bottom Discover section -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M70,260 L130,260 L130,262 L70,262 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M165,260 L180,260 L180,262 L165,262 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M175,255 L180,260 L175,265 Z" />
+
+</vector> 

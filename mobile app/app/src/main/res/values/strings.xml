@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Mindify</string>
+    <string name="app_logo">App Logo</string>
+    
+    <!-- Onboarding strings -->
+    <string name="back_button">Back</string>
+    <string name="favorite_button">Favorite</string>
+    <string name="share_button">Share</string>
+    <string name="meditation_image">Meditation Image</string>
+    <string name="intro_to_meditation">Intro to Meditation</string>
+    <string name="meditation_duration">8m 25s</string>
+    <string name="meditation_description">Meditation is a journey inward, and it all begins with this gentle introduction. In \'Intro to Meditation\', you\'ll learn the foundational techniques to cultivate mindfulness and presence.\n\nThis session offers a serene space to explore breath awareness, body relaxation, and simple visualization. Whether you\'re new to meditation or looking to deepen your practice, this guided session will help you establish a strong foundation for your mindfulness journey.</string>
+    <string name="start">Start</string>
+    
+    <!-- Onboarding screens -->
+    <string name="skip">Skip</string>
+    <string name="continue_text">Continue</string>
+    <string name="get_started">Let\'s Get Started</string>
+    <string name="onboarding_image">Onboarding Image</string>
+    <string name="app_screens">App Screen Previews</string>
+    
+    <!-- Signup strings -->
+    <string name="join_mindify_today">Join Mindify Today</string>
+    <string name="spark_icon">Spark Icon</string>
+    <string name="start_your_journey">Start Your Journey to Better Mental Health</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="i_agree_to_mindify">I agree to Mindify\'s</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="google_sign_in">Sign in with Google</string>
+    <string name="apple_sign_in">Sign in with Apple</string>
+    <string name="facebook_sign_in">Sign in with Facebook</string>
+    <string name="twitter_sign_in">Sign in with Twitter</string>
+    <string name="sign_up">Sign Up</string>
+    
+    <!-- Signin strings -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="wave_emoji">Wave Emoji</string>
+    <string name="sign_in_to_continue">Sign in to Continue Your Wellness Journey</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    
+    <!-- Homepage strings -->
+    <string name="search">Search</string>
+    <string name="intro_mental_health">Introduction to Mental Health Issues</string>
+    <string name="mental_health_intro_image">Mental Health Introduction Image</string>
+    <string name="how_do_you_feel">How do you feel today?</string>
+    <string name="mood_very_bad">Very Bad</string>
+    <string name="mood_bad">Bad Mood</string>
+    <string name="mood_neutral">Neutral Mood</string>
+    <string name="mood_good">Good Mood</string>
+    <string name="mood_very_good">Very Good Mood</string>
+    <string name="chat_with_mindy">Chat with Mindy</string>
+    <string name="talk_with_coach">Talk with Coach</string>
+    <string name="chat_icon">Chat Icon</string>
+    <string name="coach_icon">Coach Icon</string>
+    <string name="your_plans">Your plans for today (0/5)</string>
+    <string name="plans_progress">0/5</string>
+    
+    <!-- Mood Tracker Screen -->
+    <string name="close">Close</string>
+    <string name="mood_tracker_title">How do you feel today?</string>
+    <string name="mood_not_good">Not Good</string>
+    <string name="i_feel_not_good">I Feel Not Good</string>
+    <string name="i_feel_very_bad">I Feel Very Bad</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_insights">Insights</string>
+    <string name="title_profile">Profile</string>
+    
+    <!-- Talk with Coach Screen -->
+    <string name="back">Back</string>
+    <string name="calendar">Calendar</string>
+    <string name="talk_with_coach_title">Talk with Coach</string>
+    
+    <!-- Video Call Screen -->
+    <string name="end_call">End call</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="mute_call">Mute call</string>
+    <string name="speaker">Speaker</string>
+    <string name="camera_on">Camera turned on</string>
+    <string name="camera_off">Camera turned off</string>
+    <string name="mic_on">Microphone unmuted</string>
+    <string name="mic_off">Microphone muted</string>
+    <string name="speaker_on">Speaker turned on</string>
+    <string name="speaker_off">Speaker turned off</string>
+</resources>

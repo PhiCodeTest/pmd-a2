@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/coachImage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="1dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImageView"
+        app:strokeColor="#EEEEEE"
+        app:strokeWidth="1dp"
+        android:src="@drawable/placeholder_coach"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/coachName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/chatButton"
+        app:layout_constraintStart_toEndOf="@id/coachImage"
+        app:layout_constraintTop_toTopOf="@id/coachImage"
+        tools:text="Dr. William Brown, Ph.D" />
+
+    <TextView
+        android:id="@+id/coachSpecialty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@id/chatButton"
+        app:layout_constraintStart_toEndOf="@id/coachImage"
+        app:layout_constraintTop_toBottomOf="@id/coachName"
+        tools:text="Clinical Psychologist" />
+
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
+        android:text="Chat"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:backgroundTint="@color/splash_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#EEEEEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/coachSpecialty" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 

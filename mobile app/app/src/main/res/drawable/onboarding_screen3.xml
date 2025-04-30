@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="360dp"
+    android:viewportWidth="240"
+    android:viewportHeight="360">
+
+    <!-- Phone frame -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M60,40 L180,40 C190,40 200,50 200,60 L200,300 C200,310 190,320 180,320 L60,320 C50,320 40,310 40,300 L40,60 C40,50 50,40 60,40 Z" />
+
+    <!-- Phone screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,70 L190,70 L190,290 L50,290 Z" />
+
+    <!-- Status bar -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M100,50 L140,50 C145,50 145,60 140,60 L100,60 C95,60 95,50 100,50 Z" />
+
+    <!-- Header - Insights -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,70 L190,70 L190,90 L50,90 Z" />
+
+    <path
+        android:fillColor="#9BC466"
+        android:pathData="M55,80 A5,5 0 1,1 65,80 A5,5 0 1,1 55,80 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M120,75 L120,85 L123,85 L123,75 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M116,75 L116,85 L119,85 L119,75 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M124,75 L124,85 L127,85 L127,75 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M180,80 A3,3 0 1,1 186,80 A3,3 0 1,1 180,80 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M182,78 L184,80 L182,82 Z" />
+
+    <!-- Growth Area Section -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M90,100 L155,100 L155,103 L90,103 Z" />
+    <path
+        android:fillColor="#9BC466"
+        android:pathData="M170,100 A4,4 0 1,1 178,100 A4,4 0 1,1 170,100 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M171,98 L177,102 L171,102 Z" />
+
+    <!-- Hexagon Chart -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="1.5"
+        android:pathData="M120,170 L160,150 L160,110 L120,90 L80,110 L80,150 Z" />
+
+    <path
+        android:fillColor="#E6F4D7"
+        android:pathData="M120,165 L155,145 L155,115 L120,95 L85,115 L85,145 Z" />
+
+    <!-- Chart Icons -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M120,90 A8,8 0 1,1 136,90 A8,8 0 1,1 120,90 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M125,87 L131,87 L131,93 L125,93 Z" />
+
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M160,110 A8,8 0 1,1 176,110 A8,8 0 1,1 160,110 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M165,107 L165,113 L171,113 L171,107 Z" />
+
+    <path
+        android:fillColor="#DD4B39"
+        android:pathData="M160,150 A8,8 0 1,1 176,150 A8,8 0 1,1 160,150 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M164,147 L172,153 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M172,147 L164,153 Z" />
+
+    <path
+        android:fillColor="#DD4B39"
+        android:pathData="M120,170 A8,8 0 1,1 136,170 A8,8 0 1,1 120,170 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M128,166 A4,4 0 1,1 136,166 A4,4 0 1,1 128,166 Z" />
+
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M80,150 A8,8 0 1,1 96,150 A8,8 0 1,1 80,150 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M84,150 L92,150 L88,158 Z" />
+
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M80,110 A8,8 0 1,1 96,110 A8,8 0 1,1 80,110 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M84,110 L92,110 L88,102 Z" />
+
+    <!-- Chart Labels -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M115,70 L125,70 L125,73 L115,73 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M170,110 L180,110 L180,113 L170,113 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M170,150 L180,150 L180,153 L170,153 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M115,180 L125,180 L125,183 L115,183 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,150 L70,150 L70,153 L60,153 Z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,110 L70,110 L70,113 L60,113 Z" />
+
+    <!-- Bottom Mood Tracker -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M90,230 L145,230 L145,233 L90,233 Z" />
+    <path
+        android:fillColor="#9BC466"
+        android:pathData="M170,230 A4,4 0 1,1 178,230 A4,4 0 1,1 170,230 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M173,227 L175,230 L173,233 Z" />
+
+</vector> 

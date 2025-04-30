@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".VideoCallActivity">
+
+    <!-- Main video container (doctor) -->
+    <ImageView
+        android:id="@+id/doctorVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_coach"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_back"
+        android:contentDescription="@string/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/white" />
+
+    <!-- User Picture-in-Picture -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/userPipContainer"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/userVideoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_coach" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Doctor's name and call duration overlay -->
+    <LinearLayout
+        android:id="@+id/doctorInfoContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/doctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. William Brown, Ph.D."
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/callDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="00:30 mins"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Call Controls -->
+    <LinearLayout
+        android:id="@+id/callControlsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- End Call Button -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/endCallButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FF4136"
+            android:contentDescription="@string/end_call"
+            android:src="@drawable/ic_call_end"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            app:tint="@android:color/white" />
+
+        <!-- Camera Switch Button -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/cameraButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="@string/switch_camera"
+            android:src="@drawable/ic_videocam"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            app:tint="#444444" />
+
+        <!-- Mute Button -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/muteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="@string/mute_call"
+            android:src="@drawable/ic_mic"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            app:tint="#444444" />
+
+        <!-- Speaker Button -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/speakerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:contentDescription="@string/speaker"
+            android:src="@drawable/ic_volume_up"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            app:tint="#444444" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout> 
